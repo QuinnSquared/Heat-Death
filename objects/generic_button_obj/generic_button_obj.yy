@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "rounded_button_spr",
-    "path": "sprites/rounded_button_spr/rounded_button_spr.yy",
+    "name": "rounded_button_spr_big",
+    "path": "sprites/rounded_button_spr_big/rounded_button_spr_big.yy",
   },
   "solid": false,
   "visible": true,
