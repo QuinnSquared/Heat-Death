@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Script2",
+  "name": "skill_tree_scripts",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -3,3 +3,7 @@
 function node(click_param){
 	global.knowledge -= click_param.unlock_cost
 }
+
+function click_kevin_node_script(click_param){
+	//add a new button for buying a clicker of some kind 
+}
