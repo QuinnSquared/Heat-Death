@@ -15,7 +15,7 @@
     {"id":{"name":"rounded_button_spr","path":"sprites/rounded_button_spr/rounded_button_spr.yy",},"order":2,},
     {"id":{"name":"rounded_button_spr_big","path":"sprites/rounded_button_spr_big/rounded_button_spr_big.yy",},"order":3,},
     {"id":{"name":"counter","path":"objects/counter/counter.yy",},"order":0,},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"fullscreen_test","path":"rooms/fullscreen_test/fullscreen_test.yy",},"order":1,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"skill_tree_scripts","path":"scripts/skill_tree_scripts/skill_tree_scripts.yy",},"order":1,},
     {"id":{"name":"ux_checkmark_spr","path":"sprites/ux_checkmark_spr/ux_checkmark_spr.yy",},"order":6,},
@@ -37,8 +37,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"fullscreen_test","path":"rooms/fullscreen_test/fullscreen_test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

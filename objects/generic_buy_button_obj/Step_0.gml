@@ -3,7 +3,4 @@
 
 
 
-if( global.knowledge >= 10 )
-{
-	sprite_index=Sprite1
-}
+

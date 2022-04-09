@@ -3,7 +3,6 @@
 
 if( currencies_available(currency_needs) ){
 	subtract_cost(currency_needs)
-	sprite_index = Sprite2
 	global.school += 1
 	
 	if !instance_exists(generic_clicker_obj){
