@@ -8,7 +8,7 @@ draw_self();
 if(active){
 	draw_sprite(ux_checkmark_spr, 0, x, y);
 } else {
-	if(!currencies_available(currency_requirements)){
+	if(!currencies_available(currency_requirements) || !prereqs_met){
 		draw_sprite(UI_x_spr, 0, x, y);
 	}
 }

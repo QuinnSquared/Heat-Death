@@ -2,11 +2,12 @@
 // You can write your code in this editor
 
 // Inherit the parent event
+event_inherited();
 
-node_id = "generic";
+node_id = "accreditation";
 prerequisites = []; 
 active = false;
-text_body = "kevin's node"
+text_body = "Get accredited"
 click_script = "click_kevin_node_script"
 unlock_cost = 10
 click_param = self
