@@ -13,6 +13,6 @@ currency_yield_set = {
 }
 
 generation_rate = 3 // trigger every x seconds
-number_on_board = 0
+number_on_board = 1
 
 alarm[0] = seconds_to_frames(generation_rate)

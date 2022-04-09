@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "rounded_button_spr_big",
-    "path": "sprites/rounded_button_spr_big/rounded_button_spr_big.yy",
+    "name": "building_one_bit_spr",
+    "path": "sprites/building_one_bit_spr/building_one_bit_spr.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "generic_button_obj",
-    "path": "objects/generic_button_obj/generic_button_obj.yy",
+    "name": "generic_buy_button_obj",
+    "path": "objects/generic_buy_button_obj/generic_buy_button_obj.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "skill tree objects",
-    "path": "folders/Objects/skill tree objects.yy",
+    "name": "buy_buttons",
+    "path": "folders/Objects/buy_buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "node_obj",
+  "name": "buy_university_button_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

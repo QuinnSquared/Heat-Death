@@ -4,8 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-
-text_body = "kevin's node"
-click_script = "kevin_node_script"
-unlock_cost = 10
-click_param = self
+currency_needs = {
+	knowledge: 100
+}
+related_clicker = "university_clicker_obj";
