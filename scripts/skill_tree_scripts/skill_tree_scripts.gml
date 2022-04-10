@@ -15,10 +15,18 @@ function prerequisites_met(prerequisites){
 		if(array_includes(prerequisites, node_id) && !active){
 			all_nodes_active = false;
 			show_debug_message("for prereq "+ node_id + " active is " + string(active) )
-
 		}
 	}
-	
-	
 	return all_nodes_active
+}
+
+function prerequisite_coordinates(prerequisites){
+	var coor = [];
+	with(generic_node_obj){
+		if(array_includes(prerequisites, node_id)){
+			var node_coor = center_of_object(self);
+			array_push(coor, node_coor);
+		}
+	}
+	return coor;
 }

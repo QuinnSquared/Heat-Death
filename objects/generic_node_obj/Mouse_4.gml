@@ -2,7 +2,7 @@
 
 if(click_script != false) {
 	
-	if(currencies_available(currency_requirements) && !active){
+	if(currencies_available(currency_requirements) && !active && prereqs_met){
 		active = true;
 		subtract_cost(currency_requirements);
 		var click_script_index = asset_get_index(click_script);

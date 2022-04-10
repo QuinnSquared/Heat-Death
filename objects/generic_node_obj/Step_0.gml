@@ -2,6 +2,6 @@
 
 prereqs_met = prerequisites_met(prerequisites)
 
-if(currencies_available(currency_requirements)){
+prereq_coor = prerequisite_coordinates(prerequisites)
 
-}
+show_debug_message("prereq_coor are: " + string(prereq_coor))
