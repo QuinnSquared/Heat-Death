@@ -3,7 +3,7 @@
 
 draw_set_colour(c_white);
 
-draw_text(room_width/2, room_height/2, start_time);
+draw_text(0, 0, "Heat death in " + string(start_time) + " years");
 
 draw_text(room_width/2, (room_height/2) + 20, global.knowledge);
 

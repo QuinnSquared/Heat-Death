@@ -8,6 +8,7 @@
     {"id":{"name":"generic_buy_button_obj","path":"objects/generic_buy_button_obj/generic_buy_button_obj.yy",},"order":1,},
     {"id":{"name":"university_clicker_obj","path":"objects/university_clicker_obj/university_clicker_obj.yy",},"order":2,},
     {"id":{"name":"publish_paper_clicker_obj","path":"objects/publish_paper_clicker_obj/publish_paper_clicker_obj.yy",},"order":1,},
+    {"id":{"name":"placeholder_background_spr","path":"sprites/placeholder_background_spr/placeholder_background_spr.yy",},"order":9,},
     {"id":{"name":"building_one_bit_spr","path":"sprites/building_one_bit_spr/building_one_bit_spr.yy",},"order":5,},
     {"id":{"name":"generic_node_obj","path":"objects/generic_node_obj/generic_node_obj.yy",},"order":0,},
     {"id":{"name":"generic_clicker_obj","path":"objects/generic_clicker_obj/generic_clicker_obj.yy",},"order":0,},
