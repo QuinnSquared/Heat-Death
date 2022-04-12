@@ -16,6 +16,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 draw_text(bottom_left_ui_pos[0], bottom_left_ui_pos[1], 
 	"Knowledge: " + string(global.knowledge) + 
+	"\nPoop: " + string(global.poop) + 
 	"\nPapers: " + string(publish_paper_clicker_obj.number_on_board) +
 	"\nUniversities " + string(university_clicker_obj.number_on_board)
 );
