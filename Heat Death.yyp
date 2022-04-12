@@ -24,6 +24,7 @@
     {"id":{"name":"endowment_node_obj","path":"objects/endowment_node_obj/endowment_node_obj.yy",},"order":2,},
     {"id":{"name":"space_background","path":"sprites/space_background/space_background.yy",},"order":8,},
     {"id":{"name":"skill_tree_scripts","path":"scripts/skill_tree_scripts/skill_tree_scripts.yy",},"order":1,},
+    {"id":{"name":"skill_tree_menu_obj","path":"objects/skill_tree_menu_obj/skill_tree_menu_obj.yy",},"order":7,},
     {"id":{"name":"ui_controller","path":"objects/ui_controller/ui_controller.yy",},"order":8,},
     {"id":{"name":"ux_checkmark_spr","path":"sprites/ux_checkmark_spr/ux_checkmark_spr.yy",},"order":6,},
     {"id":{"name":"branch_two_node_obj","path":"objects/branch_two_node_obj/branch_two_node_obj.yy",},"order":5,},
