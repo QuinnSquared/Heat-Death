@@ -7,4 +7,6 @@ event_inherited();
 currency_needs = {
 	knowledge: 100
 }
-related_clicker = "university_clicker_obj";
+clicker_name = "university_clicker_obj";
+
+related_clicker = asset_get_index(clicker_name);

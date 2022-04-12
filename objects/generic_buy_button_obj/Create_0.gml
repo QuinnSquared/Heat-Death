@@ -5,4 +5,7 @@ y_ratio = self.sprite_width / surface_get_height(application_surface)
 currency_needs = {
 	knowledge: 10
 }
-related_clicker = "publish_paper_clicker_obj";
+
+clicker_name = "publish_paper_clicker_obj";
+related_clicker = asset_get_index(clicker_name);
+
