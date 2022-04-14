@@ -16,17 +16,6 @@ function center_of_object(thing){
 	return [thing.x + thing.sprite_width/2, thing.y + thing.sprite_height/2]
 }
 
-function center_of_view_coor(){
-	var vw = camera_get_view_width(view_camera[0]);
-	var vh = camera_get_view_height(view_camera[0]);
-	return [vw/2, vh/2];
-}
-
-function view_width_and_length(){
-	var vw = camera_get_view_width(view_camera[0]);
-	var vh = camera_get_view_height(view_camera[0]);
-	return [vw, vh];
-}
 
 function closest_cardinal_direction(origin_x, origin_y, dest_x, dest_y){
 	var delta_x = (dest_x - origin_x)

@@ -3,7 +3,13 @@ function click_kevin_node_script(click_param){
 	//add a new button for buying a clicker of some kind
 	instance_create_layer(generic_buy_button_obj.x, generic_buy_button_obj.y + 100, "UI_layer", buy_university_button_obj) //x, y, depth, obj
 	show_debug_message("should create a buy button")
+	create_countdown("sun_explode_countdown_obj");
 	
+}
+
+function create_countdown(countdown_str){
+	var my_guy = asset_get_index(countdown_str);
+	instance_create_layer(0, 0, "countdown_layer", my_guy);
 }
 
 function prerequisites_met(prerequisites){
