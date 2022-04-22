@@ -15,7 +15,8 @@ var bottom_left_ui_pos = [room_width/2 - (window_width/4) + margin_left , room_h
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 draw_text(bottom_left_ui_pos[0], bottom_left_ui_pos[1], 
-	"Knowledge: " + string(global.knowledge) + 
+	"mouse pos: " + string([mouse_x, mouse_y]) + 
+	"\nKnowledge: " + string(global.knowledge) + 
 	"\nPoop: " + string(global.poop) + 
 	"\nPapers: " + string(publish_paper_clicker_obj.number_on_board) +
 	"\nUniversities " + string(university_clicker_obj.number_on_board)

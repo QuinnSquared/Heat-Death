@@ -7,7 +7,6 @@ var other_countdowns_height = 0;
 for (var i = 0; i < instance_number(generic_countdown_obj); ++i;){
     var my_guy = instance_find(generic_countdown_obj,i);
 	if(self.id == my_guy.id){
-		show_debug_message("found self at index " + string(i))
 		break;
 	} else {
 

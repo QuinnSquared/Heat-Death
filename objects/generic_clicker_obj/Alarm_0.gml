@@ -16,11 +16,14 @@ for (var i = 0; i < array_length(currency_keys); i++;)
 
 for (var i = 0; i < array_length(currency_keys); i++;)
 {
-	show_debug_message("currency_string: " + currency_keys[i])
     currency_add = variable_struct_get(currency_yield_set, currency_keys[i]) * number_on_board
 	global_currency_var = variable_global_get(currency_keys[i])
-	show_debug_message("current currency value: " + string(global_currency_var))
 	variable_global_set(currency_keys[i], global_currency_var + currency_add)
+	var text_boi = instance_create_layer(x, y, "UI_layer", click_reward_text_obj);
+	with(text_boi){
+		text_val = "+"+string(other.currency_add);
+		click_origin = [x,y]
+	}
 }
 
 
