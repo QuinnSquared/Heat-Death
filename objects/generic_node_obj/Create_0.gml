@@ -3,6 +3,7 @@
 // Inherit the parent event
 
 //stuff that doesn't change
+visible = false;
 click_param = self
 active = false;
 
