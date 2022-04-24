@@ -1,19 +1,20 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description shift context up manually
 
+/* 
+this functionality really makes shifting automatically 
+from the skill tree more complicated. For now I'm going to 
+make context shifting locked to the skill tree.
+Subject to change.
+*/
+
+/*
 if(!transitioning){
-	trans_dir = "up"
-	transitioning = true;
-	alarm[0] = transition_pace
-	if(current_context + 1 >= highest_available_context){
-		current_context = 0
-	} else {
-		current_context += 1
+	
+	
+	if(current_context + 1 <= highest_available_context){
+		context_shift_up()
 	}
-	foreground_trans_obj.sprite_index = context_sprites[current_context]
+	
 	
 }
-/**
-
-layer_background_visible(transition, trans_on)
-**/
+*/

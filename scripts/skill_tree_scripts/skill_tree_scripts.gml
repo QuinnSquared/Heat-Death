@@ -6,6 +6,21 @@ function click_kevin_node_script(click_param){
 	
 }
 
+function enter_atomic_age(click_param){
+	
+	with(skill_tree_menu_obj){
+		open = false
+	}
+	with(generic_node_obj){
+		visible = false
+	}
+	context_controller.highest_available_context = 2;
+	//force current context to look like the last available
+	
+	context_shift_up();
+}
+
+
 function create_countdown(countdown_str){
 	var my_guy = asset_get_index(countdown_str);
 	instance_create_layer(0, 0, "countdown_layer", my_guy);

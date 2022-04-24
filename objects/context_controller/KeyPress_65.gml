@@ -1,16 +1,20 @@
-/// @description Insert description here
+/// @description shift context down by one
+
+/* 
+this functionality really makes shifting automatically 
+from the skill tree more complicated. For now I'm going to 
+make context shifting locked to the skill tree.
+Subject to change.
+*/
+
+
+/*
 if(!transitioning){
-	trans_dir = "down"
-	transitioning = true;
-	alarm[0] = transition_pace
-	foreground_trans_obj.image_alpha = 0
-	foreground_trans_obj.image_xscale = 0
-	foreground_trans_obj.image_yscale = 0
-	if(current_context <= 0){
-		current_context = highest_available_context -1
-	} else {
-		current_context -= 1
+
+	if(current_context > 0){
+		context_shift_down()
 	}
-	foreground_trans_obj.sprite_index = context_sprites[current_context]
+
 	
 }
+*/

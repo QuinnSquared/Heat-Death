@@ -2,16 +2,10 @@
 // You can write your code in this editor
 
 if(transitioning){
-	/**
-	var trans_layer = layer_background_get_id("foreground_trans_layer");
-	var layer_scale = layer_background_get_xscale(trans_layer);
-	layer_background_xscale(trans_layer, layer_scale + 0.02);
-	layer_background_yscale(trans_layer, layer_scale + 0.02);
-	**/
+
 	if(trans_dir == "up"){
 		foreground_obj.image_xscale -= 0.01
 		foreground_obj.image_yscale -= 0.01
-		//foreground_obj.image_alpha -= 0.01
 		foreground_trans_obj.image_xscale -= 0.05
 		foreground_trans_obj.image_yscale -= 0.05
 		foreground_trans_obj.image_alpha += 0.01

@@ -20,6 +20,7 @@
     {"id":{"name":"foreground_trans_obj","path":"objects/foreground_trans_obj/foreground_trans_obj.yy",},"order":13,},
     {"id":{"name":"branch_one_node_obj","path":"objects/branch_one_node_obj/branch_one_node_obj.yy",},"order":4,},
     {"id":{"name":"sun_explode_countdown_obj","path":"objects/sun_explode_countdown_obj/sun_explode_countdown_obj.yy",},"order":1,},
+    {"id":{"name":"context_scripts","path":"scripts/context_scripts/context_scripts.yy",},"order":5,},
     {"id":{"name":"rounded_button_spr","path":"sprites/rounded_button_spr/rounded_button_spr.yy",},"order":2,},
     {"id":{"name":"camera_view_scripts","path":"scripts/camera_view_scripts/camera_view_scripts.yy",},"order":4,},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"order":0,},
