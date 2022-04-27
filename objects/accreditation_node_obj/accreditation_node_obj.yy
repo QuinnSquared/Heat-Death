@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "rounded_button_spr_big",
-    "path": "sprites/rounded_button_spr_big/rounded_button_spr_big.yy",
+    "name": "generic_node_spr",
+    "path": "sprites/generic_node_spr/generic_node_spr.yy",
   },
   "solid": false,
   "visible": true,

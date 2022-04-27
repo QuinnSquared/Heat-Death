@@ -10,15 +10,6 @@ function view_width_and_length(){
 	return [vw, vh];
 }
 
-function top_center_ui_position(){
-	var window_width = window_get_width();
-	var window_height = window_get_height();
-	var margin_top = 20;
-	var margin_left = 5;
-
-	return [room_width/2, room_height/2 - (window_height/2) + margin_top];
-}
-
 function top_left_ui_position(){
 	var window_width = window_get_width();
 	var window_height = window_get_height();

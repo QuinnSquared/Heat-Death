@@ -1,0 +1,1 @@
+reveal_detail = true;

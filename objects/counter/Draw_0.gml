@@ -2,15 +2,9 @@
 // You can write your code in this editor
 
 draw_set_colour(c_white);
-var window_width = window_get_width();
-var window_height = window_get_height();
-var margin_top = 20;
-var margin_left = 5;
 
-var top_center_ui_pos = [room_width/2, room_height/2 - (window_height/4) + margin_top];
-var bottom_left_ui_pos = [room_width/2 - (window_width/4) + margin_left , room_height/2 + (window_height/4) - margin_top];
-
-//draw_text(top_center_ui_pos[0], top_center_ui_pos[1], "Heat death in " + string(start_time) + " years");
+var top_center_ui_pos = top_center_ui_position();
+var bottom_left_ui_pos = bottom_left_ui_position();
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);

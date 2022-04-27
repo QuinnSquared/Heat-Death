@@ -43,7 +43,7 @@ function prerequisite_coordinates(prerequisites){
 	var coor = [];
 	with(generic_node_obj){
 		if(array_includes(prerequisites, node_id)){
-			var node_coor = center_of_object(self);
+			var node_coor = [self.x, self.y]//center_of_object(self);
 			array_push(coor, node_coor);
 		}
 	}
