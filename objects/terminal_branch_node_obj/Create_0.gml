@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-node_id = "end_branch";
+node_id = "atom";
 prerequisites = ["branch_one", "branch_two"]; 
-text_body = "last one"
+text_body = "Enter the atomic age"
+click_script = "enter_atomic_age"

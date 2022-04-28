@@ -13,7 +13,7 @@ function array_includes(ary, element){
 }
 
 function center_of_object(thing){
-	return [thing.x + thing.sprite_width/2, thing.y + thing.sprite_height/2]
+	return [thing.x, thing.y]
 }
 
 
