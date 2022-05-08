@@ -8,6 +8,7 @@
     {"id":{"name":"generic_buy_button_obj","path":"objects/generic_buy_button_obj/generic_buy_button_obj.yy",},"order":1,},
     {"id":{"name":"generic_countdown_obj","path":"objects/generic_countdown_obj/generic_countdown_obj.yy",},"order":0,},
     {"id":{"name":"university_clicker_obj","path":"objects/university_clicker_obj/university_clicker_obj.yy",},"order":2,},
+    {"id":{"name":"game_over","path":"rooms/game_over/game_over.yy",},"order":2,},
     {"id":{"name":"publish_paper_clicker_obj","path":"objects/publish_paper_clicker_obj/publish_paper_clicker_obj.yy",},"order":1,},
     {"id":{"name":"placeholder_background_spr","path":"sprites/placeholder_background_spr/placeholder_background_spr.yy",},"order":9,},
     {"id":{"name":"building_one_bit_spr","path":"sprites/building_one_bit_spr/building_one_bit_spr.yy",},"order":5,},
@@ -21,6 +22,7 @@
     {"id":{"name":"camera_view_scripts","path":"scripts/camera_view_scripts/camera_view_scripts.yy",},"order":4,},
     {"id":{"name":"rounded_button_spr_big","path":"sprites/rounded_button_spr_big/rounded_button_spr_big.yy",},"order":3,},
     {"id":{"name":"counter","path":"objects/counter/counter.yy",},"order":0,},
+    {"id":{"name":"big_crush","path":"sprites/big_crush/big_crush.yy",},"order":11,},
     {"id":{"name":"base_room","path":"rooms/base_room/base_room.yy",},"order":1,},
     {"id":{"name":"accreditation_node_obj","path":"objects/accreditation_node_obj/accreditation_node_obj.yy",},"order":1,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
@@ -51,6 +53,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"base_room","path":"rooms/base_room/base_room.yy",},},
+    {"roomId":{"name":"game_over","path":"rooms/game_over/game_over.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

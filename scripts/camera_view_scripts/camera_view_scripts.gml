@@ -25,5 +25,6 @@ function top_left_ui_position(){
 	var margin_top = 20;
 	var margin_left = 5;
 
-	return [room_width/2 - (window_width/2), room_height/2 - (window_height/2)];
+	//return [room_width/2 - (window_width/2), room_height/2 - (window_height/2)];
+	return [0,0]
 }

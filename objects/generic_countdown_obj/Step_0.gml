@@ -16,7 +16,7 @@ for (var i = 0; i < instance_number(generic_countdown_obj); ++i;){
 }
 
 var view_w_l = view_width_and_length();
-var correct_x_scale = window_get_width()/sprite_get_width(sprite_index);
+var correct_x_scale = window_get_width() / ( sprite_get_width(sprite_index) * 2 );
 var str_height = string_height("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 var padding = 10;
 var correct_y_scale = (str_height + padding)/sprite_get_width(sprite_index);
