@@ -8,8 +8,9 @@ var bottom_left_ui_pos = bottom_left_ui_position();
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
-draw_text(bottom_left_ui_pos[0], bottom_left_ui_pos[1], 
-	"mouse pos: " + string([mouse_x, mouse_y]) + 
+draw_text(bottom_left_ui_pos[0], bottom_left_ui_pos[1],
+	"scroll bar screen ratio: " + string(scroll_bar_obj.percent_of_window_height) +
+	"\nmouse pos: " + string([mouse_x, mouse_y]) + 
 	"\nKnowledge: " + string(global.knowledge) + 
 	"\nPoop: " + string(global.poop) + 
 	"\nPapers: " + string(publish_paper_clicker_obj.number_on_board) +

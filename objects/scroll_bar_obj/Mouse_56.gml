@@ -1,0 +1,3 @@
+if(clicked){
+	clicked = false
+}

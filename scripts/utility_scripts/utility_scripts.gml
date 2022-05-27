@@ -1,3 +1,11 @@
+function percent_of_range(range, point){
+	return (point - range[0])/(range[1] - range[0])
+}
+
+function value_of_percent_of_range(range, percentage){
+	return (percentage*(range[1] - range[0]) + range[0])
+}
+
 function seconds_to_frames(second_count){
 	return second_count * room_speed;
 }
