@@ -1,5 +1,5 @@
 clicked = false;
-camera_y_boundries = [room_height*-1, 2*room_height];
+camera_y_boundries = [room_height*-1, 1*room_height];
 
 percent_of_window_height = 0.5
 x = top_right_ui_position()[0] - sprite_width/2;
