@@ -21,11 +21,13 @@ if(!currencies_available(currency_requirements)){
 draw_text_ext(cost_pos[0] +cost_width/2, cost_pos[1] + cost_height/3, cost_text, 12, writable_width);
 
 if(reveal_detail){
+	var top_padding = window_get_height()/12
+	var side_padding = window_get_width()/12
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_middle)
 	var top_right_ui_pos = top_right_ui_position();
 	draw_set_colour(c_black);
-	draw_text_ext(top_right_ui_pos[0], top_right_ui_pos[1], text_body, 12, room_width/3)
+	draw_text_ext(top_right_ui_pos[0] - side_padding, top_right_ui_pos[1] + top_padding, text_body, 12, room_width/3)
 }
 
 if(active){
