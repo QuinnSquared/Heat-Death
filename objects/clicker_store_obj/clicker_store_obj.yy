@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "slice_bttn_spr",
-    "path": "sprites/slice_bttn_spr/slice_bttn_spr.yy",
+    "name": "frame_spr",
+    "path": "sprites/frame_spr/frame_spr.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "generic_buy_button_obj",
-    "path": "objects/generic_buy_button_obj/generic_buy_button_obj.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "buy_buttons",
-    "path": "folders/Objects/buy_buttons.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "buy_university_button_obj",
+  "name": "clicker_store_obj",
   "tags": [],
   "resourceType": "GMObject",
 }
