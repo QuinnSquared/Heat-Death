@@ -5,7 +5,7 @@ draw_set_colour(c_white);
 
 var top_center_ui_pos = top_center_ui_position();
 var bottom_left_ui_pos = bottom_left_ui_position();
-
+/*
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 draw_text(bottom_left_ui_pos[0], bottom_left_ui_pos[1],
@@ -18,3 +18,4 @@ draw_text(bottom_left_ui_pos[0], bottom_left_ui_pos[1],
 );
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
+*/
