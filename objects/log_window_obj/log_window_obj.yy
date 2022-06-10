@@ -32,7 +32,7 @@
     "path": "folders/Objects/UI elements.yy",
   },
   "resourceVersion": "1.0",
-  "name": "currency_tray",
+  "name": "log_window_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

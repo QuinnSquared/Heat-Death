@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "icons",
+    "path": "folders/Sprites/icons.yy",
   },
   "resourceVersion": "1.0",
   "name": "speech_bubble_icon_spr",

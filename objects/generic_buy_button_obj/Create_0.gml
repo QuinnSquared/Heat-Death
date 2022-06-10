@@ -14,3 +14,4 @@ display_currency = [
 body_text = "Publish Paper"
 clicker_name = "publish_paper_clicker_obj";
 related_clicker = asset_get_index(clicker_name);
+button_in_charge = false;
