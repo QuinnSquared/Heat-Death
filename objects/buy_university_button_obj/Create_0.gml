@@ -5,13 +5,14 @@
 event_inherited();
 
 currency_needs = {
-	knowledge: 100
+	knowledge: 100,
+	money: 100
 }
 
 display_currency = [
 	{
 		symbol: lightbulb_symbol_spr,
-		cost: "10"
+		cost: "100"
 	},
 	{
 		symbol: dollar_symbol_spr,

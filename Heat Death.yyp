@@ -9,6 +9,7 @@
     {"id":{"name":"slice_bttn_spr","path":"sprites/slice_bttn_spr/slice_bttn_spr.yy",},"order":18,},
     {"id":{"name":"ank_icon_spr","path":"sprites/ank_icon_spr/ank_icon_spr.yy",},"order":0,},
     {"id":{"name":"button_scripts","path":"scripts/button_scripts/button_scripts.yy",},"order":0,},
+    {"id":{"name":"scroll_background_spr","path":"sprites/scroll_background_spr/scroll_background_spr.yy",},"order":29,},
     {"id":{"name":"paper_icon_spr","path":"sprites/paper_icon_spr/paper_icon_spr.yy",},"order":4,},
     {"id":{"name":"tree_line_drawer_obj","path":"objects/tree_line_drawer_obj/tree_line_drawer_obj.yy",},"order":3,},
     {"id":{"name":"generic_buy_button_obj","path":"objects/generic_buy_button_obj/generic_buy_button_obj.yy",},"order":1,},

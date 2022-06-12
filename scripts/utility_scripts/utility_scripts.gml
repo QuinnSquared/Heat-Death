@@ -1,9 +1,16 @@
 function percent_of_range(range, point){
+	//the percentge between two values that a given point falls on
 	return (point - range[0])/(range[1] - range[0])
 }
 
 function value_of_percent_of_range(range, percentage){
+	//the integer value at a given percetage between two points
 	return (percentage*(range[1] - range[0]) + range[0])
+}
+
+function starting_point_of_specified_range(size_of_range, point, percentage){
+	//find the starting value of a range of a given size which has a given point at a given percentage
+	return point - (percentage*size_of_range)
 }
 
 function seconds_to_frames(second_count){
