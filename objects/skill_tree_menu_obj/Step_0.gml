@@ -1,0 +1,9 @@
+var correct_x_scale = window_get_width()/(sprite_get_width(sprite_index)*2);
+var str_height = string_height("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+var padding = 10;
+var correct_y_scale = window_get_height()/(sprite_get_height(sprite_index)*2);
+image_xscale = correct_x_scale;
+image_yscale = correct_y_scale;
+top_left_pos = top_left_ui_position();
+x = top_left_pos[0];
+y = top_left_pos[1];
