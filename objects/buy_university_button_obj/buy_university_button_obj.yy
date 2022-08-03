@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "buy_buttons",
-    "path": "folders/Objects/buy_buttons.yy",
+    "path": "folders/Objects/UI elements/buy_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "buy_university_button_obj",

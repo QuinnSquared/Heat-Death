@@ -26,7 +26,7 @@ if(reveal_detail){
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_middle)
 	var top_right_ui_pos = top_right_ui_position();
-	draw_set_colour(c_black);
+	draw_set_colour(c_white);
 	draw_text_ext(top_right_ui_pos[0] - side_padding, top_right_ui_pos[1] + top_padding, text_body, 12, room_width/3)
 }
 

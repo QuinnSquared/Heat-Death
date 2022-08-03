@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if(button_in_charge){
+	draw_sprite_ext(fill_spr,0,clicker_store_obj.x,clicker_store_obj.y,clicker_store_obj.image_xscale,clicker_store_obj.image_yscale,0,c_white,1)
+}
 draw_self()
 if( currencies_available(currency_needs) ){
 	//sprite_index=Sprite1
